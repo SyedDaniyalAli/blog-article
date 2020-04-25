@@ -8,3 +8,7 @@ The asynchronous Rust ecosystem has undergone a lot of evolution over time, so i
 At the moment, however, the ecosystem is still undergoing rapid development and the asynchronous Rust experience is unpolished. Most libraries still use the 0.1 definitions of the futures crate, meaning that to inter-operate developers frequently need to reach for the compact functionality from the 0.3 futures crate. The async/await language feature is still new. Important extensions like async fn syntax in trait methods are still unimplemented, and the current compiler error messages can be difficult to parse.
 That said, Rust is well on its way to having some of the most performative and ergonomic support for asynchronous programming around, and if you're not afraid of doing some spelunking, enjoy your dive into the world of asynchronous programming in Rust!
 
+#async/.await Primer
+async/.await is Rust's built-in tool for writing asynchronous functions that look like synchronous code. async transforms a block of code into a state machine that implements a trait called Future. Whereas calling a blocking function in a synchronous method would block the whole thread, blocked Futures will yield control of the thread, allowing other Futures to run.
+
+
