@@ -14,3 +14,14 @@ async/.await is Rust's built-in tool for writing asynchronous functions that loo
 
 #Callbacks
 One approach to asynchronous programming is to make functions that perform a slow action take an extra argument, a callback function. The action is started, and when it finishes, the callback function is called with the result. As an example, the setTimeout function, available both in Node.js and in browsers, waits a given number of milliseconds (a second is a thousand milliseconds) and then calls a function.
+
+
+#Sudo code:
+edit & run code by clicking it
+setTimeout(() => console.log("Tick"), 500);
+
+
+#Note:
+Waiting is not generally a very important type of work, but it can be useful when doing something like updating an animation or checking whether something is taking longer than a given amount of time. Performing multiple asynchronous actions in a row using callbacks means that you have to keep passing new functions to handle the continuation of the computation after the actions.
+
+
