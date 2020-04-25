@@ -1,0 +1,3 @@
+#Async Concept 
+Asynchronous programming is a concept which allows not blocking the program workflow when waiting for the results of certain actions. So you can open a large file or query a database, but your program will continue processing each line afterwards. 
+This concept was first needed on the kernel level, because you want to be able to listen to music while you type something on your keyboard. On a software level, this was achieved through multi-threading. On the CPU side, you can have multiple processes running on each core at the same time.
