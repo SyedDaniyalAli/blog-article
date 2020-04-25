@@ -25,3 +25,12 @@ setTimeout(() => console.log("Tick"), 500);
 Waiting is not generally a very important type of work, but it can be useful when doing something like updating an animation or checking whether something is taking longer than a given amount of time. Performing multiple asynchronous actions in a row using callbacks means that you have to keep passing new functions to handle the continuation of the computation after the actions.
 
 
+#REQURIED STEPS FOR ASYNC
+
+
+Step 1-Creating an App
+
+Step 2-Dependencies  																																																																																																																																																																								
+
+Step 3-Fetch Data
+
