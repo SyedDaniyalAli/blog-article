@@ -29,8 +29,10 @@ A task or process that is made of more than one thread is multiple threads. A pr
 >note this is copyright image use for educational purpose only
 
 
-
-
+Single Core
+Those computer which having a single CPU core, only one task runs at any point in time, meaning that the CPU is actively executing instructions for that task. Multitasking solves this problem by scheduling which task may run at any given time and when another waiting task gets a turn.
+![](https://images.slideplayer.com/24/7483714/slides/slide_3.jpg)
+>note this is copyright image use for educational purpose only
 
 
 
