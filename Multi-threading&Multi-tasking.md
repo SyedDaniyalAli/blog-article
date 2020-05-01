@@ -41,6 +41,8 @@ For example, on a dual-core system, four applications - such as word processing,
 
 ![](https://www.reviversoft.com/blog/wp-content/uploads/2011/02/multi-core_cpu.png)
 
+The OS executes multiple applications more efficiently by splitting the different applications, or processes, between the separate CPU cores. The computer can spread the work - each core is managing and switching through half as many applications as before - and deliver better overall throughput and performance. In effect, the applications are running in parallel.
+
 
 
 
