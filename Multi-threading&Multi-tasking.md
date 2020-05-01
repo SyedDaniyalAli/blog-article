@@ -18,21 +18,29 @@ There are two types of Thread
 1. Single Thread
 2. Multiple Thread
 
-1.Single Thread:
+#### 1.Single Thread:
 A task or process that is made up of only one thread. A program that supports single thread is referred as single threaded application.
 ![](https://image.slidesharecdn.com/chap221-141222203658-conversion-gate02/95/chap2-2-1-5-638.jpg?cb=1419302278)
 >note this is copyright image use for educational purpose only
 
-2. Multiple Thread:
+#### 2. Multiple Thread:
 A task or process that is made of more than one thread is multiple threads. A program that supports more than one thread is multi-threaded application.
 ![](https://i.stack.imgur.com/8EoLM.png)
 >note this is copyright image use for educational purpose only
 
 
-Single Core
+### Single Core
 Those computer which having a single CPU core, only one task runs at any point in time, meaning that the CPU is actively executing instructions for that task. Multitasking solves this problem by scheduling which task may run at any given time and when another waiting task gets a turn.
 ![](https://images.slideplayer.com/24/7483714/slides/slide_3.jpg)
 >note this is copyright image use for educational purpose only
+
+
+# Multicore
+When running on a multicore system, multitasking OS's can truly execute multiple tasks concurrently. The multiple computing engines work independently on different tasks.
+For example, on a dual-core system, four applications - such as word processing, e-mail, Web browsing, and antivirus software - can each access a separate processor core at the same time. You can multitask by checking e-mail and typing a letter simultaneously, thus improving overall performance for applications.
+
+![](https://www.reviversoft.com/blog/wp-content/uploads/2011/02/multi-core_cpu.png)
+
 
 
 
