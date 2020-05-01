@@ -4,3 +4,14 @@ The word multitasking means running or operating concurrently in two more progra
 
 
 As CPU clock speeds have increased step by step over time, not most effective do programs run faster, but O's can switch between packages extra fast. This provides higher overall performance. Many actions can happen straight away on a PC, and person applications can run faster.
+
+#### Types of Multitasking
+Two kinds of multitasking:
+- 1.Process based Multitasking
+- 2.Thread based Multitasking
+
+##### 1.Process based Multitasking:
+process based multi-tasking is about allowing several programs to execute concurrently e.g java Compiler and Text editors processes are heavy weight tasks that required their own address space and inter-process communication is expensive and limited further context switching from one process to another process is expensive and limited.
+##### 2.Thread based Multitasking:
+Thread is a lightweight sub process, which are independent to each other.
+
