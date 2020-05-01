@@ -22,6 +22,7 @@ There are two types of Thread
 
 #### 1.Single Thread:
 A task or process that is made up of only one thread. A program that supports single thread is referred as single threaded application.
+
 ![](https://image.slidesharecdn.com/chap221-141222203658-conversion-gate02/95/chap2-2-1-5-638.jpg?cb=1419302278)
 >note this is copyright image use for educational purpose only
 
