@@ -27,6 +27,7 @@ A task or process that is made up of only one thread. A program that supports si
 
 #### 2. Multiple Thread:
 A task or process that is made of more than one thread is multiple threads. A program that supports more than one thread is multi-threaded application.
+
 ![](https://i.stack.imgur.com/8EoLM.png)
 >note this is copyright image use for educational purpose only
 
